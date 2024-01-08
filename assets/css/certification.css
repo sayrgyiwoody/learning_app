@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,300;1,400;1,900&family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Poppins:ital,wght@0,400;0,500;0,900;1,300;1,400;1,900&family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Parisienne&family=Poppins:ital,wght@0,400;0,500;0,900;1,300;1,400;1,900&family=REM:wght@600&display=swap');
+
+:root{
+    /* primary  */
+
+    --primary : #7711FA;
+    --secondary : #4A87CE;   
+     --muted : #73767A;
+    --dark : #222831;
+    --white : #ffffff;
+    --light : #EEEEEE;
+
+    --macaw: #1cb0f6;
+    --humpback: #2b70c9;
+    --beetle: #ce82ff;
+    --bee: #ffc800;
+    --fox: #ff9600;
+    --cardinal: #ff4b4b;
+    --light-hover: rgba(74, 135, 206, 0.20);
+
+    /* neutrals  */
+    --eel: #4b4b4b;
+    --wolf: #777;
+    --hare: #afafaf;
+    --swan: #e5e5e5;
+    --polar: #f7f7f7;
+    --snow: #fff;
+    --shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+
+    --font-open-sans: 'Open Sans', sans-serif;
+
+    /* font size  */
+    --fs-10: 10px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-24: 24px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-40: 40px;
+    
+    /* font weight  */
+    --fw-bold: 700;
+    --fw-semibold: 600;
+    --fw-medium: 500;
+    --fw-regular: 400;
+    --fw-light: 300;
+}
+/* for universal  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-open-sans);
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+/* dashboard aside  */
+.aside{
+    height: 100vh;
+    border: 1px solid var(--hare);
+}
+
+.nav-link{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: var(--fs-14);
+    font-weight: var(--fw-semibold);
+    color: var(--eel);
+}
+
+.nav-link:hover{
+    color: blue;    
+}
+
+.btn-back{
+    position: absolute;
+    bottom: 0;
+    padding: 8px 25px;
+    width: 80px;
+    border: var(--eel) 1px solid ;
+    border-radius: 10px;
+    font-size: var(--fs-12);
+    font-weight: var(--fw-medium);
+    /* background-color: var(--fox); */
+    color: var(--eel);
+}
+
+.btn-back:hover{
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+ .main-section .video{
+    background-color: var(--humpback);
+    border: 1px solid blue;
+    height: 240px;
+    border-radius: 10px;
+
+}
+.main-section{
+    
+}
+.category{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px !important;
+    height: 40px !important;
+    background: var(--swan);
+    padding: 9px 23px;
+    font-size: var(--fs-14);
+    font-weight: var(--fw-bold);
+    text-decoration: none;
+    color: var(--wolf);
+    border-radius: 10px;
+    transition:  all .2s ease-in;
+}
+.category:hover{
+    background: var(--wolf) !important;
+    color: var(--polar) !important;   
+}
+.category.active{
+    background: var(--wolf) !important;
+    color: var(--polar) !important; 
+}
+.my-swiper2{
+    overflow-x: scroll;
+    width: 1000px;
+    height: auto;
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+
+.certi-text div{
+    color: var(--humpback);
+    font-size: var(--fs-28);
+    font-weight: var(--fw-bold);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+.certi-text p{
+    margin-left: 25px;
+}
+
+.certi-sample{
+    border-radius: 10px;
+    border: 1px solid var(--wolf);
+    height: 448px;
+    width: 760px;
+    background: url(../../assets/images/certificate/certificate-background.png );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.certificate-container {
+    padding-left: 22px;
+    padding-top: 33px;
+}
+
+.badge{
+    position: absolute;
+    right: 500px;
+}
+
+.badge img{
+    width: 180px;
+
+}
+
+.text1{
+    font-family: 'Geologica', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 800;
+    font-size: 50px;
+    color: var(--secondary);
+
+}
+
+.text2{
+    letter-spacing: .1em;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 700;
+    font-size: var(--fs-32);
+    color: var(--secondary);
+}
+
+.text3, .text4, .class-name{
+    font-family: 'Geologica', sans-serif;
+    font-size: 20px;
+    color: var(--eel);
+}
+
+.user-name{
+    font-family: 'Parisienne', cursive;
+    font-weight: 700;
+    color: var(--primary);
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+
+.footer span{
+    font-family: 'Geologica', sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+.date{
+    color: var(--eel);
+    font-family: 'Geologica', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.logo-text{
+    font-size: 22px;
+    font-family: 'Geologica', sans-serif;
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+
+.logo-text span{
+    background: linear-gradient(to right, black, var(--humpback) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: -10px;
+}
+
+button{
+    outline:none;
+    background: transparent;
+    border:none;
+}
+.download{
+    padding: 15px 20px;
+    outline:none;
+    font-weight: var(--fw-bold);
+    background: transparent;
+    border:1px solid var(--eel);
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: all ease-in-out .2s;
+    /* margin-bottom: 10px; */
+}
+
+.download:hover{
+    background-color: var(--humpback);
+    border-radius: 10px;
+    color: var(--polar);
+    font-weight: var(--fw-bold);
+}
+
+
+.backbtn{
+    width: 100px;
+    height: 30px;
+    border: 2px solid var(--wolf);
+    background:#f7f7f7;
+    color: var(--polar);
+    font-size: var(--fs-20);
+    font-weight: var(--fw-semibold);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 5px;
+    text-decoration: none !important;
+    border-radius: 10px;
+}
+
+.backbtn:hover{
+    background: var(--swan);
+}
+
+.backbtn .fa-chevron-left{
+    color : #2b70c9;
+}
+
+/* for mobile responsive  */
+
+@media only screen and (max-width: 600px) {
+    .certificate-container {
+        padding-left: 0px;
+        padding-top: 0px;
+        overflow: scroll;
+    }
+}
+
