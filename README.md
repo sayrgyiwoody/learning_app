@@ -7,7 +7,7 @@
 
 ![Snap Shot](./assets/pic/home_snap.bmp)
 
-Deployment - [Demo](https://devgeeksmyanmar.github.io/learning_app/#)
+Deployment - [Demo](https://sayrgyiwoody.github.io/learning_app/)
 
 <h2>Project Scope and Objectives<h3>
 
