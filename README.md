@@ -1,26 +1,7 @@
 <h1 align='center'>Documentation</h1>
 
-<!-- collaborator titles  -->
-<h2 align=center>:rocket: Collaborators :rocket:</h2>
-<h3 align=center>:star::star::star::star::star:</h3>
-<!-- collaborators  -->
-<div align=center>
-
-| Hein Htet San | Wai Yan Tun | Lynn Myat Bhone |
-|-------|------|------|
-|<img src='https://github.com/Hein-HtetSan.png' width="100px">|<img src="https://github.com/sayrgyiwoody.png" width='100px'>|<img src='https://github.com/Lynn-Myat-Bhone.png' width="100px">|
-|[**Follow**](https://github.com/Hein-HtetSan) |[**Follow**](https://github.com/sayrgyiwoody)|[**Follow**](https://github.com/Lynn-Myat-Bhone)|
-
-| Kyaw Thuta Oo | Pyae Phyo Maung | Htet Aung Hlyan |
-|-------|------|------|
-|<img src='https://github.com/CodingbyKira.png' width="100px">|<img src="https://github.com/Pyae-PhyoMaung.png" width='100px'>|<img src='https://github.com/HAstral.png' width="100px">|
-|[**Follow**](https://github.com/CodingbyKira)|[**Follow**](https://github.com/Pyae-PhyoMaung)|[**Follow**](https://github.com/HAstral)|
-
-</div>
-<!-- end of collaborators  -->
 
 <hr>
-<h2>Project Title</h2>
 
 # Dev Geeks Learning Web Application
 
@@ -69,8 +50,6 @@ Deployment - [Demo](https://devgeeksmyanmar.github.io/learning_app/#)
 │   ├── scss
 │   └── svg
 ├── node_modules
-├── view
-│   └── file/*
 ├── index.html
 ├── README.md
 ├── package-lock.json
